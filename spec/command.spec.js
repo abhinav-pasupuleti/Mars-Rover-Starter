@@ -4,7 +4,7 @@ const Command = require('../command.js');
 //       However, do NOT edit the grading tests for any reason and make sure to un-comment out your code to get the autograder to pass.
 
 describe("Command class", function () {
-
+  //3 test cases
   it("throws error if command type is NOT passed into constructor as the first parameter", function () {
     expect(function () { 
       new Command();
